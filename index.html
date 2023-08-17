@@ -1,0 +1,378 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Blog Website</title>
+        <link rel="stylesheet" href="index.css">
+
+        <!--Adding fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+        <!--Adding Bootstrap5-->
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!--Adding Boostrap Icons-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+       <haeder class="d-lg-block d-none">
+            <div class="container-fluid">
+                <div class="text-center justify-content py-3">
+                    <span class="head-log">My Blog</span>
+                    <p class="text-secondary">Thought of lifestyle and mental health</p>
+                </div>
+            </div>
+       </haeder>
+
+
+       <nav class="navbar navbar-expand-sm border-top border-grey head-nav align-items-center">
+        <div class="container-fluid mx-2 nav-con">
+            <h5 class="head-log d-lg-none mx-2" style="font-size: 35px;">My Blog</h5>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-body justify-content-center">
+                <ul class="navbar-nav" id="my_ul">
+                    <li class="nav-item mx-5">
+                      <a class="nav-link active nav-link-txt" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-5">
+                      <a class="nav-link nav-link-txt" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown mx-5">
+                      <a class="nav-link dropdown-toggle nav-link-txt" href="#" role="button" data-bs-toggle="dropdown">Blog</a>
+                      <ul class="dropdown-menu border-0 rounded-0">
+                        <li class="border-bottom"><a class="dropdown-item text-secondary" href="#">Lifestyle</a></li>
+                        <li class="border-bottom"><a class="dropdown-item text-secondary" href="#">Health</a></li>
+                        <li><a class="dropdown-item text-secondary" href="#">Business</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item mx-5">
+                      <a class="nav-link nav-link-txt" href="#">Contact Us</a>
+                    </li>  
+                </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!--Carousel-->
+
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+        
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner align-items-center">
+                <div class="carousel-item active">
+                    <img src="image1.jpg" alt="image1" class="img-crl">
+                    <div class="carousel-caption">
+                        <h3>Our Nature</h3>
+                        <p>Nature is not a place to visit, it is home</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image2.jpg" alt="image2" class="img-crl">
+                    <div class="carousel-caption">
+                        <h3>Pleasant Colors In Garden</h3>
+                        <p>Thank you!</p>
+                    </div> 
+                </div>
+                <div class="carousel-item">
+                    <img src="image3.jpg" alt="image3" class="img-crl">
+                    <div class="carousel-caption">
+                        <h3>Colors To Wear This Fall</h3>
+                        <p>We love butterflies!</p>
+                    </div>  
+                </div>
+            </div>
+        
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    
+        <!--Columns sections-->
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-sm-4 col-md-4">
+                    <div class="sec-box">
+                        <a href="#" class="text-decoration-none">
+                            <img src="l1.jpg" alt="image1" class="sec1-img">
+                            <span class="lbl-txt head-txt">Lifestyle</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="sec-box">
+                        <a href="#" class="text-decoration-none">
+                            <img src="l2.jpg" alt="image2" class="sec1-img">
+                            <span class="lbl-txt head-txt">Health</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="sec-box">
+                        <a href="#" class="text-decoration-none"> 
+                            <img src="l3.jpg" alt="image3" class="sec1-img">
+                            <span class="lbl-txt head-txt">Business</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm-8 col-md-8">
+                    <div class="text-center">
+                        <p class="head-log pb-0" style="font-size: 25px;">In Lifestyle</p>
+                        <h4 class="head-txt">“Nature is the source of all true knowledge.”</h4>
+                        <p class=" text-secondary">15 Aug, 2023 - 11 Comments</p>
+                    </div>
+                    <div class="bl-img">
+                        <img src="bl1.jpg" alt="image" class="bl1-img">
+                        <p class="mt-1 text-secondary">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rutrum, 
+                            sem quis gravida sodales, erat eros pulvinar urna, ut consequat justo sapien
+                            eget est. Integer elementum posuere diam eu varius. Ut vel justo ex. 
+                            Sed egestas urna eu lectus malesuada maximus. Aenean porta nunc nec risus
+                            fermentum, nec ultricies erat iaculis. Nam magna turpis, commodo a euismod vel, 
+                            convallis ac lectus. Quisque ultrices consequat nibh, ut accumsan arcu viverra 
+                            vel. Aenean urna ante, dapibus a tristique sed, gravida volutpat diam. Cras at 
+                            tempor felis. Phasellus porttitor lobortis libero congue suscipit. Nunc eleifend 
+                            ullamcorper venenatis. Interdum et malesuada fames ac ante ipsum primis in 
+                            faucibus. Donec massa magna, fringilla id vestibulum eu, vestibulum semper 
+                            ligula. Etiam lacus ex, mollis non lacinia in, lobortis et ex. Duis scelerisque, 
+                            tellus vel convallis suscipit, sapien nunc facilisis orci, ac aliquet mi odio 
+                            eget urna.
+                        </p>
+                       <a href="#" class="read-txt">Read More <i class="bi bi-arrow-right-short"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="row mt-5">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="abt-sec justify-content-center text-center border border-grey px-2 py-4">
+                                <h6 class="head-txt text-center pb-2 border-bottom">ABOUT ME</h6>
+                                <img src="img1.png" alt="image" class="user-img">
+                                <p class="text-secondary px-3" style="text-align: justify;">
+                                    Hii,
+                                    i am Awadhesh Kumar Yadav, a full time blogger. I post here daily lifestyle blogs,
+                                    health tips about Business and many more.
+                                </p>
+                                <a href="#" class="read-txt">Read More<i class="bi bi-arrow-right-short"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="abt-sec justify-content-center text-center border border-grey px-2 py-4 bg-light">
+                                <h6 class="head-txt text-center pb-2">NEWSLETTER</h6>
+                                <p class="text-secondary px-3" style="text-align: justify;">
+                                   Enter your email address below to subscribe to my newsletter
+                                </p>
+                                <form class="px-3">
+                                    <input type="email" class="form-control rounded-0" placeholder="Enter Email Adress" required>
+                                    <button type="submit" class="btn btn-danger mt-2 w-100 rounded-0">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="abt-sec justify-content-center text-center border border-grey px-2 py-4">
+                                <h6 class="head-txt text-center pb-2 border-bottom">CONNECT & FOLLOW</h6>
+                                <div class="d-flex flex-row px-3 pt-2 justify-content-between">
+                                    <div class="social-icon">
+                                        <i class="bi bi-facebook"></i>
+                                    </div>
+                                    <div class="social-icon">
+                                        <i class="bi bi-twitter"></i>
+                                    </div>
+                                    <div class="social-icon">
+                                        <i class="bi bi-instagram"></i>
+                                    </div>
+                                    <div class="social-icon">
+                                        <i class="bi bi-google"></i>
+                                    </div>
+                                    <div class="social-icon">
+                                        <i class="bi bi-pinterest"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-sm-4 col-md-4">
+                    <div class="px-2">
+                        <h6 class="head-txt border-bottom pb-2">Categories</h6>
+                        <ul>
+                            <a href="#" class="text-decoration-none"><li class="py-2 border-bottom">Beauty</li></a>
+                            <a href="#" class="text-decoration-none"><li class="py-2 border-bottom">Fashion</li></a>
+                            <a href="#" class="text-decoration-none"><li class="py-2 border-bottom">Lifestyle</li></a>
+                            <a href="#" class="text-decoration-none"><li class="py-2 border-bottom">Travel</li></a>
+                            <a href="#" class="text-decoration-none"><li class="py-2 border-bottom">Business</li></a>
+                            <a href="#" class="text-decoration-none"><li class="py-2 border-bottom">Health</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 mob-mr">
+                    <div class="px-2">
+                        <h6 class="head-txt border-bottom pb-2">Latest Post</h6>
+                        <div class="mt-3">
+                            <ul class="lt-po p-0">    
+                                <li>
+                                    <a href="#">
+                                        <div class="d-flex flex-row">
+                                            <img src="./image1.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-2">
+                                                <p class="lt-po-txt">The Beautiful Nature Around</p>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mt-3">
+                                    <a href="#">
+                                        <div class="d-flex flex-row">
+                                            <img src="./image2.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-2">
+                                                <p class="lt-po-txt">The Beautiful Nature Around</p>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mt-3">
+                                    <a href="#">
+                                        <div class="d-flex flex-row">
+                                            <img src="./image3.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-2">
+                                                <p class="lt-po-txt">The Beautiful Nature Around</p>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 mob-mr">
+                    <div class="px-2">
+                        <h6 class="head-txt border-bottom pb-2">Popular Post</h6>
+                        <div class="mt-3">
+                            <ul class="lt-po p-0">    
+                                <li>
+                                    <a href="#">
+                                        <div class="d-flex flex-row">
+                                            <img src="./l1.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-2">
+                                                <p class="lt-po-txt">The Beautiful Nature Around</p>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mt-3">
+                                    <a href="#">
+                                        <div class="d-flex flex-row">
+                                            <img src="./l2.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-2">
+                                                <p class="lt-po-txt">The Beautiful Nature Around</p>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mt-3">
+                                    <a href="#">
+                                        <div class="d-flex flex-row">
+                                            <img src="./l3.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-2">
+                                                <p class="lt-po-txt">The Beautiful Nature Around</p>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="py-4 border-top mt-3">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-sm-5 col-sm-5 text-center">
+                        <p class="head-txt text-secondary pt-1 mb-0">@2023 All Right Reserved | Developed By 
+                            <a href="https://www.techuptechnologies.com/" target="_blank" class="text-decoration-none">
+                                Techuptechnologies
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-sm-7 col-md-7 text-center mob-mr">
+                        <ul class="footer-link mb-0">
+                            <li>
+                                <a href="#">Help</a>
+                            </li>
+                            <li>
+                                <a href="#">About us</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms & Condition</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+      <!--JavaScript for Navbar-->
+        <script>
+            // Adding active class to the current button (highlight it)
+            var header = document.getElementById("my_ul");
+            var btns = header.getElementsByClassName("nav-link-txt");
+            for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+            });
+            }
+        </script>
+    </body>
+</html>
