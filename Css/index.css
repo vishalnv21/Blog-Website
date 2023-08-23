@@ -157,10 +157,6 @@ p{
     list-style-type: none;
 }
 
-.lt-po li:hover{
-    background-color:#362a2a;
-}
-
 .lt-po li:hover .lt-po-img{
     transform: scale(1.05, 1.05);
 }
