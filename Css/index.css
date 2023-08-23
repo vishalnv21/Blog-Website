@@ -161,6 +161,15 @@ p{
     background-color:#362a2a;
 }
 
+.lt-po li:hover .lt-po-img{
+    transform: scale(1.05, 1.05);
+}
+
+.lt-po li .lt-po-img{
+    transition: transform 0.2s ease-in;
+    will-change: transform;
+}
+
 .lt-po .lt-po-img{
     width: 100px;
 }
