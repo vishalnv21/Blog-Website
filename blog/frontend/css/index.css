@@ -256,3 +256,21 @@ h5.head-txt.text-white:after{
         padding-top: 20px;
     }
 }
+
+.blog-container .card{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.blog-container .card:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.blog-container .card:hover .blog-image{
+    transform: scale(1.05) rotate(2deg);
+    opacity: 0.8;
+}
+
+.blog-container .card .blog-image{
+    transition: all .4s ease;
+    width: 100%;
+}
