@@ -11,10 +11,6 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@500&display=swap" rel="stylesheet">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
         <!--Adding Bootstrap5-->
         <!-- Latest compiled and minified CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -31,6 +27,10 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+        </style>
     </head>
     <body>
         <nav class="navbar navbar-expand-sm head-nav align-items-center">
@@ -46,7 +46,7 @@
                             <a class="nav-link active nav-link-txt text-white" href="./index.html"><i class="bi bi-house me-1"></i>Home</a>
                             </li>
                             <li class="nav-item mx-4">
-                                <a class="nav-link nav-link-txt text-white" href="#"><i class='bx bx-book me-1'></i>Paid Ebook</a>
+                                <a class="nav-link nav-link-txt text-white" href="./paidEbook.html"><i class='bx bx-book me-1'></i>Paid Ebook</a>
                             </li>
                             <li class="nav-item mx-4">
                                 <a class="nav-link nav-link-txt text-white" href="#"><i class='bx bx-book me-1'></i>Free Ebook</a>
@@ -75,49 +75,330 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-md-8">
-                    <h4 class="head-txt">HOW TO BE MORE CREATIVE - BEING MORE CREATIVE.</h4>
-                    <img src="./Image/l1.jpg" alt="image">
-                    <h5 class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                    <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus erat nec leo 
-                        lobortis, lobortis accumsan ex consectetur. Fusce rhoncus tellus libero, at gravida 
-                        lorem finibus ac. Vestibulum feugiat, magna dignissim fringilla hendrerit, 
-                        lorem elit pretium odio, id venenatis justo augue malesuada dui. Donec tempor ex 
-                        nibh, sit amet iaculis mi congue at. Cras sit amet interdum ex. Curabitur vitae 
-                        eros tincidunt mauris bibendum lobortis. Sed in lacus in nibh interdum accumsan. 
-                        Quisque pulvinar nibh sed metus facilisis luctus. Sed hendrerit libero vel tellus 
-                        cursus auctor. Proin a luctus urna. Integer vitae tempor elit. Vestibulum ultricies 
-                        augue id dolor sollicitudin, sed tristique mi pretium. Proin ultrices leo sit amet 
-                        nulla lobortis pharetra.
-
-                        Pellentesque vel auctor felis. Sed mollis nisi nisi. Etiam laoreet sed risus vitae 
-                        aliquam. Fusce a dolor non sem cursus aliquet sed ornare quam. Vestibulum ante 
-                        ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean 
-                        gravida, tellus pulvinar imperdiet pulvinar, metus lorem iaculis massa, at 
-                        consequat tellus quam et metus. Maecenas nisl leo, sollicitudin eu porta non, 
-                        varius eget ligula. Proin sagittis dictum dolor, quis fringilla neque bibendum sed. 
-                        Quisque quis ligula vel arcu convallis placerat sed in urna. Donec ut ipsum at 
-                        tortor tempus convallis non in tortor. Vestibulum a nisl nisi.
-                        
-                        Integer a eros sem. Pellentesque accumsan sit amet magna eget imperdiet. Morbi 
-                        pellentesque justo ut metus dapibus, ut volutpat orci pellentesque. Nulla mollis 
-                        fringilla magna quis sodales. Vivamus at sodales arcu. Integer sed massa velit. 
-                        Nam lectus felis, facilisis eu odio nec, consequat feugiat velit. Nulla convallis 
-                        erat ut ante bibendum viverra. Nunc vel elementum urna. Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit. Ut quis erat a odio tristique efficitur quis in felis.
-                        
-                        Nam viverra tempor vehicula. Nulla a enim eget dolor cursus mattis. Nam vestibulum 
-                        ut sapien vitae rutrum. Pellentesque in risus id odio eleifend malesuada tempor quis 
-                        metus. Maecenas tempus est in lorem faucibus, a tristique justo vehicula. Nulla a 
-                        suscipit turpis. Nulla facilisi.
-                        
-                        Cras posuere facilisis nulla, at fermentum felis scelerisque at. Ut in eros viverra, 
-                        tincidunt lectus eu, maximus tortor. Vestibulum aliquam volutpat condimentum. Quisque 
-                        imperdiet ullamcorper enim, sed feugiat eros consectetur nec. Aliquam erat volutpat. 
-                        Quisque augue tellus, imperdiet et accumsan sed, semper ut odio. Aliquam vitae tellus 
-                        efficitur, vulputate dui nec, fringilla nulla. Quisque at neque condimentum, 
-                        tincidunt nisi non, fringilla lacus. Etiam et blandit ex, ac ultricies ante.</p>
+                    <section class="p-3 border">
+                        <h4 class="head-txt">How to be more creative - being more creative.</h4>
+                        <img src="./Image/l1.jpg" alt="image" class="blog-img">
+                        <div class="d-flex mt-2">
+                            <span><i class="bi bi-person me-1"></i>User</span>
+                            <span class="ms-2"><i class="bi bi-calendar2-event me-1"></i>22Aug2023</span>
+                            <span class="ms-2"><i class="bi bi-tag me-1"></i>Lifestyle</span>
+                        </div>
+                        <div class="py-2"></div>
+                        <h5 class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                        <p class="text-start text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus erat nec leo 
+                            lobortis, lobortis accumsan ex consectetur. Fusce rhoncus tellus libero, at gravida 
+                            lorem finibus ac. Vestibulum feugiat, magna dignissim fringilla hendrerit, 
+                            lorem elit pretium odio, id venenatis justo augue malesuada dui. Donec tempor ex 
+                            nibh, sit amet iaculis mi congue at. Cras sit amet interdum ex. Curabitur vitae 
+                            eros tincidunt mauris bibendum lobortis. Sed in lacus in nibh interdum accumsan. 
+                            Quisque pulvinar nibh sed metus facilisis luctus. Sed hendrerit libero vel tellus 
+                            cursus auctor. Proin a luctus urna. Integer vitae tempor elit. Vestibulum ultricies 
+                            augue id dolor sollicitudin, sed tristique mi pretium. Proin ultrices leo sit amet 
+                            nulla lobortis pharetra.
+                        </p>
+                    </section>
+                    <section class="p-3 border mt-3">
+                        <h4 class="head-txt">Leave a reply</h4>
+                        <p>Your email address will not be published, required fields are marked<span class="text-danger fw-bold">*</span></p>
+                        <hr>
+                        <form id="user-form">
+                            <div class="row">
+                                <div class="col-md-6 mt-3">
+                                    <lable for="name">Your name<span class="text-danger fw-bold">*</span></lable>
+                                    <input type="text" class="form-control mt-1" placeholder="Enter your name" required>
+                                </div>
+                                <div class="col-md-6 mt-3">
+                                    <lable for="name">Your email<span class="text-danger fw-bold">*</span></lable>
+                                    <input type="email" class="form-control mt-1" placeholder="Enter your email" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 mt-3">
+                                    <lable for="name">Comments<span class="text-danger fw-bold">*</span></lable>
+                                    <textarea class="form-control mt-1" rows="3" required></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 mt-3">
+                                    <input type="checkbox" name="check" checked>
+                                    <label for="check">Save my name and email for future comments.</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 mt-3">
+                                    <button type="submit" class="submit-btn">Post Comment</button>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="abt-sec justify-content-center border px-4 py-4">
+                        <h5 class="head-txt text-center pb-2 border-bottom">Latest Post</h5>
+                        <div class="mt-3">
+                            <ul class="lt-po p-0">    
+                                <li>
+                                    <a href="#">
+                                        <div class="d-flex flex-row pb-2 border-bottom">
+                                            <img src="./Image/image1.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-3">
+                                                <span class="lt-po-txt text-dark">The Beautiful Nature Around</span>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mt-3">
+                                    <a href="#">
+                                        <div class="d-flex flex-row border-bottom pb-2">
+                                            <img src="./Image/image2.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-3">
+                                                <span class="lt-po-txt text-dark">The Beautiful Nature Around</span>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mt-3">
+                                    <a href="#">
+                                        <div class="d-flex flex-row">
+                                            <img src="./Image/image3.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-3">
+                                                <span class="lt-po-txt text-dark">The Beautiful Nature Around</span>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="abt-sec justify-content-center border px-4 py-4 mt-3">
+                        <h5 class="head-txt text-center pb-2 border-bottom">Popular Post</h5>
+                        <div class="mt-3">
+                            <ul class="lt-po p-0">    
+                                <li>
+                                    <a href="#">
+                                        <div class="d-flex flex-row border-bottom pb-2">
+                                            <img src="./Image/l1.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-3">
+                                                <span class="lt-po-txt text-dark">The Beautiful Nature Around</span>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mt-3">
+                                    <a href="#">
+                                        <div class="d-flex flex-row border-bottom pb-2">
+                                            <img src="./Image/l2.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-3">
+                                                <span class="lt-po-txt text-dark">The Beautiful Nature Around</span>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mt-3">
+                                    <a href="#">
+                                        <div class="d-flex flex-row">
+                                            <img src="./Image/l3.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-3">
+                                                <span class="lt-po-txt text-dark">The Beautiful Nature Around</span>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm-4 col-md-4">
+                    <div class="px-2">
+                        <h5 class="head-txt text-white"><i class="bi bi-bookmarks me-1"></i>Categories</h5>
+                        <div class="mt-3">
+                            <ul class="lt-po p-0">    
+                                <li>
+                                    <a href="#">
+                                        <div class="d-flex flex-row border-bottom pb-2 border-secondary">
+                                            <img src="./Image/l1.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-3">
+                                                <p class="lt-po-txt">Lifestyle</p>
+                                                <p class="text-secondary">5 posts</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mt-3">
+                                    <a href="#">
+                                        <div class="d-flex flex-row border-bottom pb-2 border-secondary">
+                                            <img src="./Image/l2.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-3">
+                                                <p class="lt-po-txt">Health</p>
+                                                <p class="text-secondary">11 Posts</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mt-3">
+                                    <a href="#">
+                                        <div class="d-flex flex-row">
+                                            <img src="./Image/l3.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-3">
+                                                <p class="lt-po-txt">Business</p>
+                                                <p class="text-secondary">12 Posts</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 mob-mr">
+                    <div class="px-2">
+                        <h5 class="head-txt text-white"><i class='bx bx-book me-1'></i>Paid Ebook</h5>
+                        <div class="mt-3">
+                            <ul class="lt-po p-0">    
+                                <li>
+                                    <a href="#">
+                                        <div class="d-flex flex-row border-bottom pb-2 border-secondary">
+                                            <img src="./Image/image1.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-2">
+                                                <p class="lt-po-txt">The Beautiful Nature Around</p>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mt-3">
+                                    <a href="#">
+                                        <div class="d-flex flex-row border-bottom pb-2 border-secondary">
+                                            <img src="./Image/image2.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-2">
+                                                <p class="lt-po-txt">The Beautiful Nature Around</p>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mt-3">
+                                    <a href="#">
+                                        <div class="d-flex flex-row">
+                                            <img src="./Image/image3.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-2">
+                                                <p class="lt-po-txt">The Beautiful Nature Around</p>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 mob-mr">
+                    <div class="px-2">
+                        <h5 class="head-txt text-white"><i class='bx bx-book me-1'></i>Free Ebook</h5>
+                        <div class="mt-3">
+                            <ul class="lt-po p-0">    
+                                <li>
+                                    <a href="#">
+                                        <div class="d-flex flex-row border-bottom pb-2 border-secondary">
+                                            <img src="./Image/l1.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-2">
+                                                <p class="lt-po-txt">The Beautiful Nature Around</p>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mt-3">
+                                    <a href="#">
+                                        <div class="d-flex flex-row border-bottom pb-2 border-secondary">
+                                            <img src="./Image/l2.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-2">
+                                                <p class="lt-po-txt">The Beautiful Nature Around</p>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mt-3">
+                                    <a href="#">
+                                        <div class="d-flex flex-row">
+                                            <img src="./Image/l3.jpg" alt="image" class="lt-po-img">
+                                            <div class="d-flex flex-column ms-2">
+                                                <p class="lt-po-txt">The Beautiful Nature Around</p>
+                                                <p class="text-secondary">Lifestyle, 11 Aug 2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container border-top py-3">
+            <div class="row align-items-center">
+                <div class="col-sm-4 col-sm-4 text-center">
+                    <p class="head-txt text-secondary pt-1 mb-0">@2023 All Right Reserved | Developed By 
+                        <a href="https://www.techuptechnologies.com/" target="_blank" class="text-primary">
+                            Techuptechnologies
+                        </a>
+                    </p>
+                </div>
+                <div class="col-sm-5 col-md-5 text-center">
+                    <ul class="footer-link mb-0">
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                         <li>
+                            <a href="#">Terms & Condition</a>
+                        </li>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Help</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-3 text-center">
+                    <ul class="social-icon-footer d-flex mb-0">
+                        <li>
+                            <a href="#">
+                                <img src="./Image/facebook.png" alt="social icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./Image/instagram.png" alt="social icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./Image/twitter.png" alt="social icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./Image/youtube.png" alt="social icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </html>

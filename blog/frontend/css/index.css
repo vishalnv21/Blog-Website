@@ -18,9 +18,8 @@ header{
 }
 
 p{
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-    line-height: 25px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
 }
 
 .sub-link{
@@ -111,22 +110,28 @@ p{
     background-position: center;
 }
 
-.read-txt{
+.submit-btn{
     padding: 10px 12px;
     text-decoration: none;
     font-size: 13px;
     font-weight: 500;
-    color: #fff;
+    color: #fff !important;
     background: #000000;
+    transition: .2s;
 }
 
+.submit-btn:hover{
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px;
+}
+
+/*
 .read-txt:hover{
-    color: #808000;
+    color: #808000 !important;
     border: 1px solid #808000;
     background: none;
     transition: 0.3s;
 }
-
+*/
 .user-img{
     width: 50%;
     margin: 10px 0;
@@ -173,6 +178,7 @@ p{
 .lt-po .lt-po-txt{
     color: #ffffff;
     font-weight: 600;
+    font-size: 14px;
 }
 
 footer{
@@ -191,11 +197,11 @@ footer{
 .footer-link a{
     text-decoration: none;
     display: block;
-    color: #5f5f5b;
+    color: #5f5f5b !important;
 }
 
 .footer-link a:hover{
-    color: #808000;
+    color: #808000 !important;
 }
 
 .list-style{
@@ -227,6 +233,11 @@ footer{
     padding: 8px 12px;
 }
 
+a{
+    text-decoration: none;
+    color: #000 !important;
+}
+
 h5.head-txt.text-white:after{
     border-bottom: 2px solid rgb(194, 167, 167);
     content: "";
@@ -255,6 +266,14 @@ h5.head-txt.text-white:after{
     .mob-mr{
         padding-top: 20px;
     }
+
+    .col-sm-4{
+        margin-top: 15px !important;
+    }
+        
+    .social-icon-footer li img{
+       display: none;
+    }
 }
 
 .blog-container .card{
@@ -273,4 +292,26 @@ h5.head-txt.text-white:after{
 .blog-container .card .blog-image{
     transition: all .4s ease;
     width: 100%;
+}
+
+.blog-img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#user-form .row .form-control:focus, #newsletter .form-control:focus{
+    box-shadow: none !important;
+}
+
+.social-icon-footer{
+    list-style-type: none;
+}
+
+.social-icon-footer li img{
+    width: 60%;
+}
+
+.book-thumbnail{
+    width: 100%;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
